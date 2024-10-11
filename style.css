@@ -1,0 +1,61 @@
+/* Основные стили для body */
+body {
+    font-family: Arial, sans-serif; /* Шрифт для всего документа */
+    background-color: #f9f9f9; /* Цвет фона */
+    margin: 0; /* Убираем отступы */
+    padding: 20px; /* Внутренние отступы */
+}
+
+/* Стили для заголовка */
+h1 {
+    color: #333; /* Цвет текста заголовка */
+    text-align: center; /* Центрируем заголовок */
+}
+
+/* Стили для формы */
+form {
+    max-width: 600px; /* Максимальная ширина формы */
+    margin: 20px auto; /* Центрируем форму на странице */
+    padding: 20px; /* Внутренние отступы формы */
+    background-color: #C0C0C0; /* Цвет фона формы */
+    border: 1px solid #ccc; /* Цвет и стиль границы формы */
+    border-radius: 5px; /* Скругленные углы формы */
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1); /* Тень для эффекта глубины */
+}
+
+/* Стили для меток и полей ввода */
+label {
+    display: block; /* Отображаем метки в блоке */
+    margin-bottom: 5px; /* Отступ снизу */
+    font-weight: bold; /* Полужирный шрифт для меток */
+}
+
+input[type="radio"] {
+    margin-right: 5px; /* Отступ справа для радиокнопок */
+}
+
+textarea {
+    width: 100%; /* Ширина текстового поля */
+    padding: 5px; /* Внутренние отступы текстового поля */
+    border: 1px solid #ccc; /* Цвет и стиль границы текстового поля */
+    border-radius: 4px; /* Скругленные углы текстового поля */
+    resize: vertical; /* Разрешаем изменять размер только по вертикали */
+
+}
+
+/* Стили для кнопки отправки */
+input[type="submit"] {
+    background-color: #FFFFFF; /* Цвет фона кнопки */
+    color: black; /* Цвет текста кнопки */
+    padding: 10px 15px; /* Внутренние отступы кнопки */
+    border: none; /* Убираем границу */
+    border-radius: 5px; /* Скругленные углы кнопки */
+    cursor: pointer; /* Курсор при наведении */
+    transition: background-color 0.6s; /* Плавный переход цвета фона */
+}
+
+input[type="submit"]:hover {
+    background-color: #800080; /* Цвет фона кнопки при наведении */
+    color: white;
+    transition: background-color 0.6s; /* Плавный переход цвета фона */
+}
